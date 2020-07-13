@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1 id="title">My Business Survey Form</h1>
+        <p id="decription">You have to input all your credatials to start the survey!</p>
+
+        <form id="survey-form">
+            <div class="survey-form-display">
+                <div id="main-text">
+                    <label for="name-label">Enter full names</label><br>
+                </div>
+                    <input id="name-label" type="text" placeholder="name"><br><br>
+                
+                <div id="main-text">
+                    <label for="email-label">Enter your email</label><br>
+                </div>
+                    <input id="email-label" type="text" placeholder="email"><br><br>
+
+                <div id="main-text">
+                    <label for="employeeNum-label">Enter your employee number</label><br>
+                </div>
+                    <input id="employeeNum-label" type="text" placeholder="employee number"><br><br>
+                
+                <div id="main-text">
+                    <label for="dropdown">select from below options</label><br>
+                </div>
+                <select name="dropdown" id="dropdown-label">
+                    <option value="entreprenuer">Are you a business entreprenuer</option>
+                    <option value="owner">Are you a business owner</option>
+                    <option value="Self-employed">Are you self employed</option>
+                </select><br><br>
+
+                <div id="main-text">
+                    <input type="radio" id="investment" name="investment-type" value="investment">
+                    <label for="investment">Investment</label><br>
+                    <input type="radio" id="partnership" name="investment-type" value="partnership">
+                    <label for="partnership">partnership</label><br>
+                    <input type="radio" id="personal" name="investment-type" value="personal">
+                    <label for="personal">personal</label><br><br>
+                </div>
+
+                <div id="main-text">
+                    <input type="checkbox" name="business" value="Mybusiness">
+                    <label for="business">I have my own Business</label><br>
+                    <input type="checkbox" name="business1" value="Mybusiness">
+                    <label for="business1">I am the Director in the company</label><br>
+                    <input type="checkbox" name="business2" value="Mybusiness">
+                    <label for="business">Others</label><br><br>
+                </div>
+
+                <div id="main-text">
+                    <label for="label-textarea">write your comments below</label><br>
+                </div>
+                <textarea id="label-textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+                <label id="submit-label">
+                    <button type="button" name="Submit">Submit Here!</button>
+                </label>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
